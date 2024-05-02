@@ -106,6 +106,7 @@
 }
 .categories p:hover{
     transition: 1s;
+    
      background-color:white;
      color: #8A2BE2;
 }

@@ -79,6 +79,21 @@
     padding: 15px;
     top: 45px;
     left: 35px;
+    animation: shake;
+    transition-duration: 2s;
+    opacity: 0;    
+    animation-fill-mode: forwards;
+
+}
+@keyframes shake{
+    0%{
+        opacity: 0;
+      transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+      transform: scale(1);
+    }
 }
 .img11{
     position: relative;
@@ -89,12 +104,19 @@
     padding: 10px 30px ;
     border-bottom: solid black 1px;
 }
+.categories p:hover{
+    transition: 1s;
+     background-color:white;
+     color: #8A2BE2;
+}
 .b1,.b2,.b3,.b4,.b5,.b6{
     color: white;
     background-color: #8A2BE2;
     border: solid #8A2BE2 1px;
     padding: 10px;
+    border: solid #8A2BE2 1px;
     border-radius: 50px;
+    cursor: pointer;
 }
 .img11 img{
     width: 100%;

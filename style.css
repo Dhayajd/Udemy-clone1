@@ -39,6 +39,21 @@
     align-items: center;
     gap: 10px;
 }
+.courses{
+    position: relative;
+    cursor: pointer;
+}
+.courses__popup{
+    position: absolute;
+    background-color: gainsboro;
+    top: 150%;
+    padding: 8px;
+    right: 0;
+    display: none;
+}
+.courses:hover .courses__popup{
+    display: block;
+}
 .mylearning{
     position:relative;
     cursor: pointer;
